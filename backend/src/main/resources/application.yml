@@ -1,6 +1,6 @@
 spring:
   datasource:
-    url: jdbc:postgresql:127.0.0.1:5432/article_explorer
+    url: jdbc:postgresql://127.0.0.1:5432/article_explorer
     username: article_explorer
     password: demo
     driver-class-name: org.postgresql.Driver

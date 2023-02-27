@@ -3,10 +3,10 @@ package me.jdickel.articleexplorer.entities;
 import java.util.Objects;
 import java.util.UUID;
 
-import org.springframework.data.annotation.Id;
 import org.springframework.data.domain.Persistable;
 
 import jakarta.persistence.Column;
+import jakarta.persistence.Id;
 import jakarta.persistence.MappedSuperclass;
 import jakarta.persistence.PostLoad;
 import jakarta.persistence.PostPersist;
